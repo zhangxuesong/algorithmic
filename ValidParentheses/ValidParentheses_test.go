@@ -12,7 +12,7 @@ func TestIsValid(t *testing.T) {
 	sMap["]"] = false
 	for k, v := range sMap {
 		b := IsValid(k)
-		t.Logf("the b should be true, k= %s, v= %v, b= %v. \n", k, v, b)
+		t.Logf("k= %s, v= %v, b= %v. \n", k, v, b)
 	}
 
 	t.Logf("ok")
