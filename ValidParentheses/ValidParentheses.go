@@ -1,9 +1,7 @@
 package ValidParentheses
 
-/**
-有效的括号
-https://leetcode-cn.com/problems/valid-parentheses/
- */
+//有效的括号
+//https://leetcode-cn.com/problems/valid-parentheses/
 func IsValid(s string) bool {
 	n := len(s)
 	if n%2 == 1 {
